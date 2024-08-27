@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 20px;
+  width: 300px;
+  background-color: rgb(67, 67, 67);
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas */
+  gap: 10px; /* Espaçamento entre os itens */
+  width: 100%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  grid-column: span 2; /* O título ocupa as duas colunas */
+  text-align: center;
+}
+
+.title {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,21 @@
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  flex-direction: column;
+}
+
+.inputBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 300px;
+  height: 35px;
+}
+
+.input{
+  width: 200px;
+  height: 100%;
+}
