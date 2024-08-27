@@ -22,6 +22,8 @@ export default function InputList() {
       <h2>Adicione um produto</h2>
       <div className={styles.background}>
         <div className={styles.inputBox}>
+
+          {/* Lista de cards Insira um valor e clique para adicionar */}
           <input
             className={styles.input}
             placeholder='Insira aqui'
@@ -31,6 +33,7 @@ export default function InputList() {
           <button onClick={handleAddList}>Add</button>
         </div>
 
+        {/* Lista de cards */}
         <div className={styles.cardContainer}>
           {list.map((item, index) => (
             <Card key={index}
